@@ -49,7 +49,7 @@ class App extends React.Component {
             <Card3 />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <Card4 />
+            
             <Card5 />
             <Card6 />
           </div>
@@ -113,28 +113,16 @@ function Card3() {
       <div style={Styles.titleSpacing}>Skills</div>
       <div style={Styles.contentSpacing} className="row">
         <div className="col-6">
-          <div className="m-1">HTML5</div>
-          <div className="m-1">CSS3</div>
+          <div className="m-1">HTML</div>
+          <div className="m-1">CSS</div>
           <div className="m-1">Bootstrap</div>
-          <div className="m-1">Javascript</div>
+          <div className="m-1">JavaScript</div>
         </div>
         <div className="col-6">
-          <div className="m-1">MySql</div>
+          <div className="m-1">MaterialUI</div>
           <div className="m-1">ReactJS</div>
           <div className="m-1">C++</div>
         </div>
-      </div>
-    </div>
-  );
-}
-function Card4() {
-  return (
-    <div style={Styles.glass} className="container mt-4">
-      <div style={Styles.titleSpacing}>Internships</div>
-      <div style={Styles.contentSpacing}>
-        <div className="m-2">Multidigi Hub (Jan 2021-Mar 2021)</div>
-        <div className="m-2">Cisco-Techs (Oct 2021-Jan 2022)</div>
-        <div className="m-2">KrishMonte (Apr 2022-Jul 2022)</div>
       </div>
     </div>
   );
@@ -144,11 +132,24 @@ function Card5() {
     <div style={Styles.glass} className="container mt-4">
       <div style={Styles.titleSpacing}>Projects</div>
       <div style={Styles.contentSpacing}>
-        <div className="m-2">Home workout android application</div>
-        <div className="m-2">Portfolio generator</div>
-        <div className="m-2">Fundraiser Social Media App</div>
-        <div className="m-2">Tinder Clone</div>
-        <div className="m-2">E-commerce Website</div>
+        <div className="m-2">
+          <h6>Home workout android application</h6>
+<p>Android app focused on beginners. It contains video tutorials, diet plans, BMI calculator and reminder</p>
+            </div>
+        <div className="m-2">
+          <h6>Portfolio generator</h6>
+<p>Enter your resume details and it will give you a wwebsite which you can use as your own portfolio </p>
+            </div>
+        <div className="m-2">My Portfolio</div>
+        <div className="m-2">
+          <h6>React Forms</h6>
+<p>Basic forms made using ReactJS</p>
+</div>
+<div className="m-2">
+          <h6>Weather website</h6>
+<p>Gives weather details using weatherAPI</p>
+</div>
+        <div className="m-2">Library Management Website</div>
       </div>
     </div>
   );
@@ -160,8 +161,7 @@ function Card6() {
       <div style={Styles.contentSpacing}>
         <div className="m-1">Passionate about Volleyball</div>
         <div className="m-1">Reading Books</div>
-        <div className="m-1">K-Drama and Anime</div>
-        <div className="m-1">Providing online education</div>
+        <div className="m-1">Chess</div>
       </div>
     </div>
   );
